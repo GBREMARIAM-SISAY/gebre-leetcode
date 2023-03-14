@@ -4,9 +4,9 @@
  */
 var fizzBuzz = function(n) {
     let myarr=[]
-    
+    let str;
     for(let i=1; i<=n ; i++ ){
-        let str=''
+        str=''
         if (i%3===0){
             str+='Fizz'
         }
